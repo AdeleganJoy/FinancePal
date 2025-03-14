@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FinancePal</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FinancePal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+    </header>
+    <section class="hero-section">
+        <div class="container">
+            <h1 >Welcome to FinancePal!</h1>
+            <p class="lead">Your personal finance tracker made simple.</p>
+            
+            @* Check if user is logged in *@
+            @if (Context.Session.GetString("UserName") != null)
+            {
+                <p>Welcome back, @Context.Session.GetString("UserName")!</p>
+                <a href="@Url.Action("Logout", "Home")" class="btn btn-danger btn-lg">Logout</a>
+                <a href="@Url.Action("Index", "Expenses")" class="btn btn-light btn-lg">Go to Expenses</a>
+            }
+        </div>
+    </section>
+    </section>   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - FinancePal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

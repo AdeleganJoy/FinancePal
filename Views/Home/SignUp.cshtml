@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+@model FinancePal.Models.User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <script src="~/js/site.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container my-5">
+        <h2 class="text-center">Sign Up</h2>
+        <form method="post" asp-action="SignUp" class="border p-4 shadow-sm rounded">
+        
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="JohnDoe" required class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john_doe@yahoo.com" required class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="balance">Balance</label>
+                <input type="number" id="balance" name="Amount" placeholder="2000" required class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="8" placeholder="password" required class="form-control">
+            </div>
+
+            <div class="form-group text-center">
+                <input type="submit" value="Sign Up" class="btn btn-primary mt-4">
+            </div>
+
+        </form>
+
+        <div class="mt-3 text-center">
+            <a href="@Url.Action("Login", "Home")">Already have an account? Login here.</a>
+        </div>
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger mt-2">
+                @ViewBag.ErrorMessage
+            </div>
+        }
+    </div>
+</body>
+</html>
