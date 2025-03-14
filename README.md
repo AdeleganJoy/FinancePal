@@ -1,0 +1,2 @@
+# FinancePal
+A finance tracker
