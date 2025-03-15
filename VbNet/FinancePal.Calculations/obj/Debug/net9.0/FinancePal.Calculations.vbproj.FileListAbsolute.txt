@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\bin\Debug\net9.0\FinancePal.Calculations.deps.json
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\bin\Debug\net9.0\FinancePal.Calculations.dll
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\bin\Debug\net9.0\FinancePal.Calculations.pdb
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.AssemblyInfo.vb
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.vbproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.sourcelink.json
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.dll
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\refint\FinancePal.Calculations.dll
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.pdb
+C:\Users\User\Desktop\System\FinancePal\VbNet\FinancePal.Calculations\obj\Debug\net9.0\ref\FinancePal.Calculations.dll

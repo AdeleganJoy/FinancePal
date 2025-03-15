@@ -1174,6 +1174,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "FinancePal.Calculations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FinancePal.Calculations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancePal.Calculations.dll": {}
+        }
       }
     }
   },
@@ -3287,11 +3297,17 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FinancePal.Calculations/1.0.0": {
+      "type": "project",
+      "path": "VbNet/FinancePal.Calculations/FinancePal.Calculations.vbproj",
+      "msbuildProject": "VbNet/FinancePal.Calculations/FinancePal.Calculations.vbproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "BCrypt.Net-Next >= 4.0.3",
+      "FinancePal.Calculations >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.3"
@@ -3321,7 +3337,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\System\\FinancePal\\VbNet\\FinancePal.Calculations\\FinancePal.Calculations.vbproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\System\\FinancePal\\VbNet\\FinancePal.Calculations\\FinancePal.Calculations.vbproj"
+            }
+          }
         }
       },
       "warningProperties": {

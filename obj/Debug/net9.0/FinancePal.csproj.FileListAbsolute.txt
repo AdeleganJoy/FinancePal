@@ -1,5 +1,7 @@
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\appsettings.json
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\VbNet\FinancePal.Calculations\obj\FinancePal.Calculations.vbproj.nuget.dgspec.json
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\VbNet\FinancePal.Calculations\obj\project.assets.json
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\FinancePal.staticwebassets.runtime.json
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\FinancePal.staticwebassets.endpoints.json
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\FinancePal.exe
@@ -135,6 +137,8 @@ C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\runtimes\win-arm\native
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\FinancePal.Calculations.dll
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\FinancePal.Calculations.pdb
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.AssemblyInfoInputs.cache
@@ -143,6 +147,7 @@ C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.csproj.CoreC
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.RazorAssemblyInfo.cache
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.sourcelink.json
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\scopedcss\bundle\FinancePal.styles.css
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\scopedcss\projectbundle\FinancePal.bundle.scp.css
@@ -225,3 +230,5 @@ C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\refint\FinancePal.dll
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.pdb
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\FinancePal.genruntimeconfig.cache
 C:\Users\User\Desktop\System\FinancePal\obj\Debug\net9.0\ref\FinancePal.dll
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\VbNet\FinancePal.Calculations\bin\Debug\net9.0\FinancePal.Calculations.deps.json
+C:\Users\User\Desktop\System\FinancePal\bin\Debug\net9.0\VbNet\FinancePal.Calculations\obj\Debug\net9.0\FinancePal.Calculations.sourcelink.json

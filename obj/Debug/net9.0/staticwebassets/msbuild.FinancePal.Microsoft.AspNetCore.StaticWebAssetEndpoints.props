@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FinancePal.ngcl67lbh5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 10:09:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 14:24:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FinancePal/FinancePal.ngcl67lbh5.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\FinancePal.ngcl67lbh5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ngcl67lbh5"},{"Name":"integrity","Value":"sha256-V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4="},{"Name":"label","Value":"_content/FinancePal/FinancePal.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 10:09:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022V4RBfIUFs8VP6uSetqdu7Me94LnaP\u002BE3JoBKnb/VpJ4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 14:24:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FinancePal/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

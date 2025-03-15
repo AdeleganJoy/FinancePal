@@ -3,7 +3,7 @@ using FinancePal.Models;
 using Microsoft.AspNetCore.Mvc;
 using FinancePal.Services;
 using System.Diagnostics;
-
+using FinancePal.Calculations.FinancePal.Calculations;
 
 namespace FinancePal.Controllers;
 
@@ -13,12 +13,14 @@ public class HomeController : Controller
     private readonly FinancePalDbContext _context;
 
     private readonly Authentifier _authentifier;
+    private FinanceCal _financeCalculator;
 
     public HomeController(ILogger<HomeController> logger, FinancePalDbContext context, Authentifier authentifier)
         {
             _logger = logger;
             _context = context;
             _authentifier = authentifier; 
+            _financeCalculator = new FinanceCal();
         }
 
     // GET: Home Page
@@ -68,11 +70,13 @@ public class HomeController : Controller
 
         if (user != null)
         {
-            if (model.Category == "salary"){
-                user.Amount += model.Amount;
+            if (model.Category == "salary")
+            {
+                user.Amount = _financeCalculator.CalcBalance(user.Amount, model.Amount, model.Category); // Use FinanceCal
             }
-            else{
-                user.Amount -= model.Amount;
+            else
+            {
+                user.Amount = _financeCalculator.CalcBalance(user.Amount, model.Amount, model.Category); // Use FinanceCal
             }
             _context.Users.Update(user);
             _context.SaveChanges();

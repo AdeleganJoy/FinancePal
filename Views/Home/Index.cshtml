@@ -29,7 +29,10 @@
 
     <div class="container my-4">
         <h3>Expense Categories</h3>
-        <canvas id="expenseChart" width="400" height="200"></canvas>
+            <div style="max-width: 200px; margin: auto;">
+                <canvas id="expenseChart"></canvas>
+            </div>>
+    </div>
     </div>
 
     <script>
@@ -47,6 +50,14 @@
             }
         });
     </script>
+
+    @if (ViewBag.Balance < 0)
+{
+    <div class="alert alert-warning">
+        ⚠️ Warning: Overspending! Adjust your spending.
+    </div>
+}
+
 
 
     <form method="post" action="@Url.Action("Logout", "Home")">
