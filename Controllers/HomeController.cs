@@ -78,14 +78,8 @@ public class HomeController : Controller
         if (user != null)
         {
             //Change the balance
-            if (model.Category == "salary")
-            {
-                user.Amount = _financeCalculator.CalcBalance(user.Amount, model.Amount, model.Category); // Use FinanceCal
-            }
-            else
-            {
-                user.Amount = _financeCalculator.CalcBalance(user.Amount, model.Amount, model.Category); // Use FinanceCal
-            }
+            user.Amount = _financeCalculator.CalcBalance(user.Amount, model.Amount, model.Category); // Use FinanceCal
+        
             //Update the User database
             _context.Users.Update(user);
             _context.SaveChanges();
@@ -116,8 +110,7 @@ public class HomeController : Controller
     // POST: Handling SignUp
     [HttpPost]
     public IActionResult SignUp(User model){
-        _logger.LogInformation($"Sign-Up Info: Username - {model.Username}, Email - {model.Email}, Amount - {model.Amount}");
-        //CHeck if user exists in system
+        //Check if user exists in system
         var user_exist = _context.Users.FirstOrDefault(u => u.Email == model.Email);
         if (user_exist == null)
         {
