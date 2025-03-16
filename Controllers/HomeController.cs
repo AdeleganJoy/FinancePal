@@ -43,6 +43,7 @@ public class HomeController : Controller
 
         // Group expenses by category and calculate the total amount for each category
         var categoryExpenseData = expenses
+            .Where(e => e.Category != "salary")  // Remove Category salary from the pie chart
             .GroupBy(e => e.Category)
             .Select(g => new{
                 Category = g.Key,
