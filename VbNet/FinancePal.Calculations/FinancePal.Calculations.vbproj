@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <RootNamespace>FinancePal.Calculations</RootNamespace>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
 </Project>
